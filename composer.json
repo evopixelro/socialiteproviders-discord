@@ -1,0 +1,36 @@
+{
+    "name": "evopixel/socialiteproviders-discord",
+    "description": "This is a fork of socialproviders/discord module",
+    "license": "MIT",
+    "keywords": [
+        "discord",
+        "laravel",
+        "oauth",
+        "provider",
+        "socialite"
+    ],
+    "authors": [
+        {
+            "name": "Christopher Eklund",
+            "email": "eklundchristopher@gmail.com"
+        },
+        {
+            "name": "EvoPixel"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/evopixelro/socialiteproviders-discord/issues",
+        "source": "https://github.com/evopixelro/socialiteproviders-discord",
+        "docs": "https://socialiteproviders.com/discord"
+    },
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\Discord\\": ""
+        }
+    }
+}
